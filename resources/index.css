@@ -157,3 +157,74 @@ footer > img {
     top: 1.5em;
     margin-right: 1.5em;
 }
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (min-width: 620px) {
+    footer > img {
+        top: 1em;
+    }
+}
+
+@media only screen and (min-width: 715px) {
+
+    header > #header-text {
+        width: 50%;
+    }
+
+    main > #about {
+        width: 50%;
+    }
+
+    footer > img {
+        top: 1em;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+    nav > img {
+        display: none;
+    }
+
+    nav > #navigation {
+        display: block;
+        color: white;
+        background-color: transparent;
+        width: 50%;
+        top: 5%;
+        height: 10%;
+    }
+
+    nav > #navigation > ul {
+        display: flex;
+        justify-content: space-around; 
+    }
+
+    nav > #navigation > ul > li {
+        cursor: pointer;
+    }
+
+    nav > h1 {
+        float: left;
+        left: 1em;
+    }
+
+    footer > img {
+        top: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+
+    nav > #navigation {
+        top: 3.3%;
+    }
+
+    nav > #navigation > ul > li {
+        font-size: 21px;
+    }
+
+    nav > h1 {
+        font-size: 25px;
+    }
+} 
