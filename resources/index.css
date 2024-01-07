@@ -133,8 +133,27 @@ main > #about > .box > #letter-t {
 footer {
     height: 5em;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    color: white;
     position: relative;
     left: 0;
     top: 25em;
+}
+
+footer > h4 {
+    width: 10%;
+    float: left;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding: 1em;
+    position: absolute;
+}
+
+
+footer > img {
+    width: 7%;
+    float: right;
+    position: relative;
+    top: 1.5em;
+    margin-right: 1.5em;
 }
