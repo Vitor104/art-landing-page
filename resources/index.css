@@ -52,7 +52,7 @@ nav > h1 {
 
 header {
     position: relative;
-    top: 5em;
+    top: 6em;
     color: white;
 }
 
@@ -80,3 +80,61 @@ header > #header-text > h2 {
     margin-bottom: 0.5em;
 }
 
+/* MAIN   */
+
+main {
+    position: relative;
+    top: 18em;
+}
+
+main > article > img {
+    width: 60%;
+}
+
+main > #about {
+    height: 30em;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid white;
+    top: 5em;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+main > #about > .box {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+main > #about > .box > #letter-a {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+main > #about > .box > #letter-r {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+main > #about > .box > #letter-t {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* FOOTER  */ 
+
+footer {
+    height: 5em;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 0;
+    top: 25em;
+}
