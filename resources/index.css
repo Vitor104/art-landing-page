@@ -227,4 +227,18 @@ footer > img {
     nav > h1 {
         font-size: 25px;
     }
+
+    header {
+       border-bottom: 5px solid white;
+    }
+
+
+    header > #header-text {
+        border: none;
+    }
+
+    header > #header-img > img {
+       width: 30%;
+       border-radius: 45%;
+    }
 } 
