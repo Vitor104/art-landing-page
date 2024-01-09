@@ -7,6 +7,8 @@
 body {
     text-align: center;
     background-color: #030303;
+    height: 100%;
+    min-height: 100vh;
 }
 
 nav {
@@ -262,7 +264,7 @@ footer > img {
 
     header > #header-text {
         border: none;
-        top: 15em;
+        top: 25em;
     }
 
     header > #header-img > img {
@@ -270,5 +272,35 @@ footer > img {
        border-radius: 45%;
        position: relative;
        left: 5em;
+    }
+
+    main {
+        height: 65em;
+    }
+
+    main > article > img {
+        width: 40%;
+    }
+
+    main > #about {
+        width: 50%;
+        font: 18px;
+        top: 20em;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    footer > img {
+        top: 0.5em;
+        height: 70%;
+        width: 5%;
+    }
+
+    footer > h4 {
+        font-size: 18px;
     }
 } 
