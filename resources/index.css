@@ -56,6 +56,10 @@ header {
     color: white;
 }
 
+#hidden-um {
+    display: none;
+}
+
 header > #header-img > img {
     width: 60%;
 }
@@ -222,23 +226,49 @@ footer > img {
 
     nav > #navigation > ul > li {
         font-size: 21px;
+        display: none;
     }
+
+    #hidden-um {
+        display: inline-block;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        float: left;
+        transform: translate(220px, 5px);
+        border-bottom: 5px solid white;
+    }
+
+    #hidden-um > a > P {
+        margin-bottom: 4em;
+    }
+
+    #hidden-um > a {
+        text-decoration: none;
+        color: white;
+    }
+
 
     nav > h1 {
         font-size: 25px;
+        float: none;
     }
 
     header {
        border-bottom: 5px solid white;
+       height: 60em;
     }
 
 
     header > #header-text {
         border: none;
+        top: 15em;
     }
 
     header > #header-img > img {
        width: 30%;
        border-radius: 45%;
+       position: relative;
+       left: 5em;
     }
 } 
