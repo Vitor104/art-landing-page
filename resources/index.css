@@ -11,12 +11,29 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 nav {
-    height: 5em;
+    height: 10em;
     width: 100%;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+nav > img {
+    height: 15%;
+    width: 10%;
+    align-self: center;
+    position: relative;
+    top: 1em;
+}
+
+nav > h1 {
+    position: relative;
+    top: 2em;
 }
 
 header {
