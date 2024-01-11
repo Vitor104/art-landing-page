@@ -25,7 +25,7 @@ nav {
 
 nav > img {
     height: 15%;
-    width: 10%;
+    width: 6%;
     align-self: center;
     position: relative;
     top: 1em;
@@ -36,11 +36,16 @@ nav > h1 {
     top: 2em;
 }
 
+/* HEADER */
+
 header {
     height: 50em;
     width: 100%;
     background-color: blue;
 }
+
+
+
 
 main {
     height: 50em;
