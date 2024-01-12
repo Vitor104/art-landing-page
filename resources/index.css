@@ -11,16 +11,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: black;
 }
 
 nav {
     height: 10em;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    color: white;
+    border: 5px solid white;
 }
 
 nav > img {
@@ -29,6 +30,8 @@ nav > img {
     align-self: center;
     position: relative;
     top: 1em;
+    background-color: white;
+    border-radius: 40%;
 }
 
 nav > h1 {
@@ -42,6 +45,8 @@ nav > #mobile-nav {
     z-index: 1;
     text-align: center;
     display: none;
+    color: black;
+    scroll-behavior: auto;
 }
 
 nav > #mobile-nav > ul > li {
@@ -53,7 +58,8 @@ nav > #mobile-nav > ul > li {
 header {
     height: 70em;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -70,6 +76,15 @@ header > img {
 
 header > section {
     line-height: 1.5em;
+    width: 70%;
+    color: rgb(255, 255, 255);
+    border: 5px solid #A6A6A6;
+    border-radius: 10%;
+    padding: 1em;
+}
+
+header > section > p {
+    font-size: 15px;
 }
 
 /* MAIN  */
@@ -78,7 +93,7 @@ header > section {
 main {
     height: 70em;
     width: 100%;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -94,8 +109,7 @@ main > img {
 }
 
 main > section {
-    width: 90%;
-    
+    width: 70%;
     
 }
 
@@ -104,6 +118,14 @@ main > section > .box {
     width: 100%;
     background-color: white;
     margin-bottom: 2em;
+    border-radius: 10%;
+    font-size: 14px;
+}
+
+main > section > .box > .letters {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -111,6 +133,6 @@ main > section > .box {
 footer {
     height: 5em;
     width: 100%;
-    background-color: purple;
+    background-color: rgb(0, 0, 0);
 }
 
