@@ -280,4 +280,62 @@ footer > h4 {
     main > section > .box {
         width: 50%;
     }
+
+@media only screen and (min-width: 1440px) {
+    nav > h1 {
+        font-size: 30px;
+        top: 2em;
+    }
+
+    header > #desktop-nav > li {
+        font-size: 28px;
+    }
+
+    header > img {
+        height: 30%;
+        width: 30%;
+    }
+
+    div > #desktop-section {
+        width: 50%;
+    }
+
+    div > #desktop-section > h2 {
+        font-size: 30px;
+    }
+
+    div > #desktop-section > p {
+        font-size: 23px;
+    }
+
+    main > img {
+        height: 30%;
+        width: 30%;
+    }
+
+    main > section > .box {
+        width: 50%;
+        font-size: 20px;
+        padding: 1em;
+    }
+
+    main > section > .box > .letters {
+        font-size: 30px;
+    }
+
+    footer > h4 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    body {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    main > section > .box {
+        width: 60%;
+        font-size: 19px;
+    }
 }
