@@ -253,6 +253,10 @@ footer > h4 {
         cursor: pointer;
     }
 
+    header > #desktop-nav > li:hover {
+        border-bottom: 5px solid gray;
+    }
+
     header > img {
         height: 20%;
         width: 20%;
