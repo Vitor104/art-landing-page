@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@keyframes example {
+    from {top: 0; color: black;}
+    to {align: center; color: white;}
+}
+
 body {
     text-align: center;
     background-color: #030303;
@@ -41,6 +46,8 @@ nav > h1 {
     font-weight: bold;
     word-spacing: 0.3em;
     font-family: 'Courier New', Courier, monospace;
+    animation-name: example;
+    animation-duration: 2s;
 }
 
 nav > #mobile-nav {
